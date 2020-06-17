@@ -147,7 +147,7 @@ section {
 @media (min-width:768px) {
 	.navbar-default
 	{
-		background-color: #fff;
+		background-color:rgba(255,255,255,.6);
 		padding: 25px 0;
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
@@ -466,6 +466,9 @@ figure.effect-bubba:hover p {
 	transform: translate3d(0,0,0);
 }
 
+.port-img{
+    height: 235px;
+}
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
 --------------------*/
@@ -642,6 +645,11 @@ footer p a span {
 6. Modal
 --------------------*/
 
+.logo-img {
+    width:45%;
+    margin:5% 10% 0;
+}
+
 .modal-content {
 	border-radius: 0;	
 }
@@ -681,6 +689,10 @@ font-size: 11px;
 7. Components
 --------------------*/
 
+#intro-btn{
+    margin-top:100px;
+}
+
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #041144;
@@ -692,7 +704,9 @@ font-size: 11px;
     background-color: #041144;
     border-color: #041144;
 }
-
+#submit-btn{
+    margin-bottom:3%;
+}
 .btn {
     display: inline-block;
     padding: 8px 20px;

@@ -95,6 +95,8 @@ section {
 #nav-logo {
     max-height: 125%;
     margin-top:-3%;
+    /* background-color: rgba(255,255,255,.5);
+    border-radius: 40px; */
 }
 
 .navbar-default {
@@ -253,6 +255,12 @@ header .intro-text .intro-heading {
     font-weight: 300;
     line-height: 25px;
     margin: 20px 100px 60px 100px;
+}
+
+@media (max-width:480px){
+    .section-title p {
+        margin:20px 50px 60px 50px;
+    }
 }
 
 /*--------------------
@@ -469,6 +477,23 @@ figure.effect-bubba:hover p {
 .port-img{
     height: 235px;
 }
+
+@media(max-width:990px){
+    .port-img {
+        height:auto;
+    }
+
+    
+
+}
+
+@media (min-width:480px) and (max-width:990px) {
+    .ot-portfolio-item{
+        padding:0px 70px;
+    }
+}
+
+
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
 --------------------*/
@@ -573,6 +598,13 @@ figure.effect-bubba:hover p {
     font-weight: 300;
     color: #9C9C9C;
     padding: 5px 10px 20px 10px;
+}
+
+@media (min-width:768px) and (max-width:990px){
+    .team-item{
+        max-height: 425px;
+        margin:5%;
+    }
 }
 
 /*--------------------

@@ -1,3 +1,4 @@
+
 <?php
     function post_captcha($user_response) {
         $fields_string = '';
@@ -31,11 +32,11 @@
         // If CAPTCHA is successfully completed...
 
  
-        $from = '<c.etges86@gmail.com>';
+        $from = '<accounts@valleyequitygroup.com>';
         $sendTo = '<c.etges86@gmail.com>';
         $subject = 'New message from contact form';
         $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-        $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+        $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
         $errorMessage = 'There was an error while submitting the form. Please try again later';
 
         // let's do the sending

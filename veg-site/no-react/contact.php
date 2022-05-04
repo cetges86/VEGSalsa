@@ -32,8 +32,8 @@
         // If CAPTCHA is successfully completed...
 
  
-        $from = '<contactform@valleyequitygroup.com>';
-        $sendTo = '<contactform@valleyequitygroup.com>';
+        $from = '<info@valleyequitygroup.com>';
+        $sendTo = '<info@valleyequitygroup.com>';
         $subject = 'New message from contact form';
         $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
         $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
